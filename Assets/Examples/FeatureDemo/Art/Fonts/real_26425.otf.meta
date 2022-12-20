@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 5743dcab9fbbd4a46a46a8a0aa60dc73
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Real Head Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7456db46687e9471482dee3b0c702fce, type: 3}
+  - {fileID: 12800000, guid: c5c1b2f481e3648e2af936e598129b87, type: 3}
+  - {fileID: 12800000, guid: d5a89064fff3f4b568cff42350c22aa1, type: 3}
+  - {fileID: 12800000, guid: a60f8c387b28a47bb9ce34790d762a6e, type: 3}
+  - {fileID: 12800000, guid: 5498f44d2022f43c9be30ea1d088f51e, type: 3}
+  - {fileID: 12800000, guid: 963276474cb934bf3b2cad855a9f2797, type: 3}
+  - {fileID: 12800000, guid: 4320c3d7767c441d58728c973d064cc8, type: 3}
+  - {fileID: 12800000, guid: 635f5ad3264b24eaca66f0fda3814671, type: 3}
+  - {fileID: 12800000, guid: 550138b6bbb23442ba33542444519943, type: 3}
+  - {fileID: 12800000, guid: f4beb1f2e605e4c049b4fe7a9e05bba0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c9a3954b490dd4bacc165da6b13ba4, type: 3}
   m_Name: SpatialSDK_Config
   m_EditorClassIdentifier: 
-  configVersion: 1
+  configVersion: 2
   sku: 
   packageName: Starter Environment
   description: Add a description here
@@ -21,9 +21,16 @@ MonoBehaviour:
     useCases: []
     variants:
     - name: My Environment
+      id: 99c9720ab356a0642a771bea13969a05
       scene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
       thumbnail: {fileID: 2800000, guid: 8556be473992b42dbb7035908e118623, type: 3}
       miniThumbnail: {fileID: 0}
       thumbnailColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - name: FeatureDemo
+      id: 5a4e4d605920f4afdbe35a0942b30555
+      scene: {fileID: 102900000, guid: 5a4e4d605920f4afdbe35a0942b30555, type: 3}
+      thumbnail: {fileID: 2800000, guid: ec6e61a8993a64290991cfc322ec43ea, type: 3}
+      miniThumbnail: {fileID: 0}
+      thumbnailColor: {r: 0.36663404, g: 0.7264151, b: 0.58032936, a: 1}
   deprecated_usageType: 0
   deprecated_environmentVariants: []

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7135892761588533882
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpatialStarterPlatform
+  m_Shader: {fileID: -6465566751694194690, guid: 48541e10896bc4cfe928e1fd6c644890,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap_Lower:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap_Upper:
+        m_Texture: {fileID: 2800000, guid: 3e459320d1e804bdb994481734523ea5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap_Lower:
+        m_Texture: {fileID: 2800000, guid: 210ed9eb138194dd5a9760b474962789, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap_Upper:
+        m_Texture: {fileID: 2800000, guid: d0da565d55f48415d92d7aa15c84f7f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap_Lower_Met_Smt_AO:
+        m_Texture: {fileID: 2800000, guid: e07abcdbc012a486b92e4f854ae8b3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap_Upper_Met_Smt_AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap_Lower:
+        m_Texture: {fileID: 2800000, guid: 2c0dffe4c2ed443f7baef72b2512b03c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap_Upper:
+        m_Texture: {fileID: 2800000, guid: 2c0dffe4c2ed443f7baef72b2512b03c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Metallic_Lower: 0
+    - _Metallic_Upper: 0
+    - _Normal_Strength_Lower: 0.3
+    - _Normal_Strength_Upper: 0.6
+    - _PlatformHeight: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness_Lower: 1
+    - _Smoothness_Upper: 0.2
+    m_Colors:
+    - _BaseColor_Lower: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    - _BaseColor_Sole: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    - _BaseColor_Top: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    - _BaseColor_Upper: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseMapST_Lower: {r: 8, g: 8, b: 0, a: 0}
+    - _BaseMapST_Upper: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
