@@ -2189,9 +2189,9 @@ PrefabInstance:
     - target: {fileID: 8308221001059285433, guid: f55a9bf10b90345fbbc637c74db1f7ba,
         type: 3}
       propertyPath: m_text
-      value: 'THUMBNAIL
+      value: 'Thumbnail
 
-        CAMERA'
+        Camera'
       objectReference: {fileID: 0}
     - target: {fileID: 8308221001059285433, guid: f55a9bf10b90345fbbc637c74db1f7ba,
         type: 3}
@@ -3969,7 +3969,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3d8929a7d846344a4a9c59e43d47894c, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
