@@ -11,6 +11,15 @@ TagManager:
   - 
   - Water
   - UI
+  - CustomLayer1
+  - CustomLayer2
+  - CustomLayer3
+  - CustomLayer4
+  - CustomLayer5
+  - CustomLayer6
+  - CustomLayer7
+  - CustomLayer8
+  - Vehicles
   - 
   - 
   - 
@@ -25,18 +34,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - AvatarRemote
+  - AvatarLocal
+  - Environment
   m_SortingLayers:
   - name: Default
     uniqueID: 0

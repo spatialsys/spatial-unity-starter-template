@@ -6847,6 +6847,9 @@ MonoBehaviour:
   environmentSettings:
     disableTeleport: 1
     useSeatsAsSpawnPoints: 0
+    avatarControlSettings: 0
+    localAvatarMovingSpeed: 3
+    localAvatarRunSpeed: 5.5
 --- !u!1001 &341367216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8157,10 +8160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
-  version: 1
+  version: 2
   questName: Hyper Jump Intro
   description: Start a round of Hyper Jump and collect as many dots as you can!
   startAutomatically: 1
+  saveUserProgress: 1
   tasksAreOrdered: 1
   celebrateOnComplete: 1
   questRewards: []
@@ -8169,6 +8173,7 @@ MonoBehaviour:
     name: Begin a round of Hyper Jump
     type: 0
     progressSteps: 0
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -8180,6 +8185,16 @@ MonoBehaviour:
       questEvent:
         events: []
     onCompletedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onPreviouslyCompleted:
       id: 0
       unityEventIsSynced: 0
       unityEvent:
@@ -8260,6 +8275,40 @@ MonoBehaviour:
       - questID: 2
         questEventType: 1
         taskID: 0
+  onPreviouslyCompleted:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 325309213}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 455294703}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
   onResetEvent:
     id: 0
     unityEventIsSynced: 0
@@ -23741,10 +23790,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
-  version: 1
+  version: 2
   questName: Hyper Jump Adept
   description: Learn the basics
   startAutomatically: 0
+  saveUserProgress: 1
   tasksAreOrdered: 1
   celebrateOnComplete: 1
   questRewards: []
@@ -23753,6 +23803,7 @@ MonoBehaviour:
     name: Collect 100 dots in a single game.
     type: 0
     progressSteps: 100
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -23764,6 +23815,16 @@ MonoBehaviour:
       questEvent:
         events: []
     onCompletedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onPreviouslyCompleted:
       id: 0
       unityEventIsSynced: 0
       unityEvent:
@@ -23796,6 +23857,16 @@ MonoBehaviour:
       - questID: 3
         questEventType: 1
         taskID: 0
+  onPreviouslyCompleted:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
   onResetEvent:
     id: 0
     unityEventIsSynced: 0
@@ -42646,10 +42717,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 4
-  version: 1
+  version: 2
   questName: Hyper Jump Master
   description: Become a Hyper Jump Master
   startAutomatically: 0
+  saveUserProgress: 1
   tasksAreOrdered: 1
   celebrateOnComplete: 1
   questRewards: []
@@ -42658,6 +42730,7 @@ MonoBehaviour:
     name: Collect 400 dots in a single game.
     type: 0
     progressSteps: 400
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -42678,6 +42751,16 @@ MonoBehaviour:
         events: []
       questEvent:
         events: []
+    onPreviouslyCompleted:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
   onStartedEvent:
     id: 0
     unityEventIsSynced: 0
@@ -42689,6 +42772,16 @@ MonoBehaviour:
     questEvent:
       events: []
   onCompletedEvent:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
+  onPreviouslyCompleted:
     id: 0
     unityEventIsSynced: 0
     unityEvent:
@@ -48754,10 +48847,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3
-  version: 1
+  version: 2
   questName: Hyper Jump Challenger
   description: Prove you have skill in the arena
   startAutomatically: 0
+  saveUserProgress: 1
   tasksAreOrdered: 1
   celebrateOnComplete: 1
   questRewards: []
@@ -48766,6 +48860,7 @@ MonoBehaviour:
     name: Collect 300 dots in a single game.
     type: 0
     progressSteps: 400
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -48777,6 +48872,16 @@ MonoBehaviour:
       questEvent:
         events: []
     onCompletedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onPreviouslyCompleted:
       id: 0
       unityEventIsSynced: 0
       unityEvent:
@@ -48809,6 +48914,16 @@ MonoBehaviour:
       - questID: 4
         questEventType: 1
         taskID: 0
+  onPreviouslyCompleted:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
+    questEvent:
+      events: []
   onResetEvent:
     id: 0
     unityEventIsSynced: 0

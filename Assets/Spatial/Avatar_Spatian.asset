@@ -16,6 +16,8 @@ MonoBehaviour:
   sku: 
   packageName: Spatian
   thumbnail: {fileID: 2800000, guid: ac5c61475abbb634892f1abb491af367, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
   prefab: {fileID: 152906789507395296, guid: e8713cede32d2e04f97f221849a9a296, type: 3}
   usageContext: 0
   category: 1

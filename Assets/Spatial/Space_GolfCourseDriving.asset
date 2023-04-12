@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_GolfCourseDriving
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 
+  packageName: Golf Course Driving
+  thumbnail: {fileID: 2800000, guid: 194142ac3a25141af9092e7c3c64271c, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: 2c6273d1c5a5242f29a7b7c10e0f95d2,
+    type: 2}
+  worldID: LCvao5V8HgapJDz9AZNNl
+  scene: {fileID: 102900000, guid: 4651f420e3ec94fa8b27b1072e75cec5, type: 3}
