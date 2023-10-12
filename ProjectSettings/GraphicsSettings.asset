@@ -68,3 +68,5 @@ GraphicsSettings:
   m_SRPDefaultSettings:
     UnityEngine.Rendering.Universal.UniversalRenderPipeline: {fileID: 11400000, guid: cee0519276f96418ca6d395fde4e3b66,
       type: 2}
+  m_CameraRelativeLightCulling: 1
+  m_CameraRelativeShadowCulling: 1

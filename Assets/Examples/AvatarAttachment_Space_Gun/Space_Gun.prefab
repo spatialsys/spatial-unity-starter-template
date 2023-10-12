@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4490782287819446449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7041933989602246725}
+  m_Layer: 0
+  m_Name: LeftHandIKTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7041933989602246725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4490782287819446449}
+  m_LocalRotation: {x: 0.5023523, y: -0.1101622, z: 0.84798986, w: 0.12813894}
+  m_LocalPosition: {x: -0.056, y: 0.0637, z: 0.1064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7179477840175498731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7559698391102611281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7179477840175498731}
+  - component: {fileID: 6056631883888593486}
+  - component: {fileID: 8352362917226413700}
+  - component: {fileID: 8728467092330814728}
+  m_Layer: 0
+  m_Name: Space_Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7179477840175498731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559698391102611281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7041933989602246725}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6056631883888593486
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559698391102611281}
+  m_Mesh: {fileID: -6976188158745851305, guid: 1245ef0b1756b994a95e38ca14ded2cd, type: 3}
+--- !u!23 &8352362917226413700
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559698391102611281}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 420faf81579e62f439f45bac5f49d8d0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8728467092330814728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559698391102611281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960434ece8771ed4cbecc56fd636ab6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedProjectSettings: {fileID: 11400000, guid: 524d04a8d42784bd28f0345d4abb6089,
+    type: 2}
+  version: 2
+  primarySlot: 3
+  additionalSlots: 2
+  category: 2
+  isSkinnedToHumanoidSkeleton: 0
+  attachToBone: 1
+  attachBoneTarget: 18
+  attachBoneOffset: {x: 0.0658, y: 0.129, z: 0.03}
+  attachBoneRotationOffset: {x: 0.35111722, y: -0.52026564, z: -0.5616404, w: -0.53907365}
+  ikTargetsEnabled: 1
+  ikLeftHandTarget: {fileID: 7041933989602246725}
+  ikRightHandTarget: {fileID: 0}
+  ikLeftFootTarget: {fileID: 0}
+  ikRightFootTarget: {fileID: 0}
+  customActionsEnabled: 0
+  customActionsCount: 0
+  overrideAvatarAnimations: 1
+  avatarAnimSettings:
+    idle:
+      overrideClip: {fileID: 7400000, guid: 870f0e3b58d4f4a96a8dc2382de1d8bc, type: 2}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 0
+    walk:
+      overrideClip: {fileID: 7400000, guid: ec0562cdef685447c974bafb47d40914, type: 2}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 0
+    jog:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    run:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpStartIdle:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpStartMoving:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpInAir:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpLandStanding:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpLandWalking:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpLandRunning:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpLandHigh:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    jumpMultiple:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    fall:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 1
+      disableIK: 1
+    sit:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 0
+      disableIK: 1
+    emote:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 0
+      disableIK: 1
+    climbIdle:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 0
+      disableIK: 1
+    climbUp:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 0
+      disableIK: 1
+    climbEndTop:
+      overrideClip: {fileID: 0}
+      overrideClipMale: {fileID: 0}
+      attachmentVisible: 0
+      disableIK: 1
+    customActions: []
+  attachmentAnimatorType: 0
+  attachmentAnimClips:
+    idle: {fileID: 0}
+    walk: {fileID: 0}
+    jog: {fileID: 0}
+    run: {fileID: 0}
+    jumpStartIdle: {fileID: 0}
+    jumpStartMoving: {fileID: 0}
+    jumpInAir: {fileID: 0}
+    jumpLandStanding: {fileID: 0}
+    jumpLandWalking: {fileID: 0}
+    jumpLandRunning: {fileID: 0}
+    jumpLandHigh: {fileID: 0}
+    jumpMultiple: {fileID: 0}
+    fall: {fileID: 0}
+    sit: {fileID: 0}
+    climbIdle: {fileID: 0}
+    climbUp: {fileID: 0}
+    climbEndTop: {fileID: 0}
+    customActions: []

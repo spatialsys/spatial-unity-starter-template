@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7552ae4e73851074f94bba1559cadcf5, type: 3}
+  m_Name: AvatarAttachment_SpaceGun
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 
+  packageName: Space Gun
+  thumbnail: {fileID: 2800000, guid: 4b125fed008194698825974a3569a074, type: 3}
+  savedProjectSettings: {fileID: 0}
+  prefab: {fileID: 8728467092330814728, guid: 450ad2fc1d8764c6790f3cb94624afb7, type: 3}
+  usageContext: 1
