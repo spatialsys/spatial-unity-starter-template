@@ -6535,12 +6535,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Point of interest
   description: 
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.4}
+  foregroundColor: {r: 1, g: 1, b: 1, a: 1}
   sprite: {fileID: 0}
   spriteSize: 0.75
   spriteRectSize: {x: 0, y: 0}
   textDisplayRadius: 0.06979132
   markerDisplayRadius: 13.752501
-  alwaysOnTop: 0
   onTextDisplayedEvent:
     id: 0
     unityEventIsSynced: 0
@@ -6847,9 +6848,20 @@ MonoBehaviour:
   environmentSettings:
     disableTeleport: 1
     useSeatsAsSpawnPoints: 0
+    enableAvatarToAvatarCollisions: 0
+    cameraRotationMode: 0
+    respawnLevelY: -100
+    defaultMovementMaterial: {fileID: 0}
     avatarControlSettings: 0
     localAvatarMovingSpeed: 3
     localAvatarRunSpeed: 5.5
+    localAvatarJumpHeight: 1.5
+    localAvatarGravityMultiplier: 1.5
+    localAvatarFallingGravityMultiplier: 1
+    localAvatarUseVariableHeightJump: 1
+    localAvatarMaxJumpCount: 2
+    localAvatarGroundFriction: 1
+    localAvatarAirControl: 1
 --- !u!1001 &341367216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9209,12 +9221,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Enter to Play!
   description: 
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.4}
+  foregroundColor: {r: 1, g: 1, b: 1, a: 1}
   sprite: {fileID: 0}
   spriteSize: 0.75
   spriteRectSize: {x: 0, y: 0}
   textDisplayRadius: 0.06979132
   markerDisplayRadius: 14.091684
-  alwaysOnTop: 0
   onTextDisplayedEvent:
     id: 0
     unityEventIsSynced: 0
@@ -10830,7 +10843,8 @@ AudioSource:
   m_GameObject: {fileID: 519549433}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7931198258659611161, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 3b685a976af2145268ae202ef10023ef, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.039
@@ -17539,7 +17553,8 @@ AudioSource:
   m_GameObject: {fileID: 822535002}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 4c86ff22eadd54ca0b9995591ea88aa1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.263
@@ -24158,7 +24173,8 @@ AudioSource:
   m_GameObject: {fileID: 919639753}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: bffddbfcc5036466cb31cdf1f24ccc93, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.274
@@ -27846,7 +27862,8 @@ AudioSource:
   m_GameObject: {fileID: 1109703470}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: d7a655a521ac440f0ac7840e35f2e9a6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -60332,7 +60349,8 @@ AudioSource:
   m_GameObject: {fileID: 2046598029}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: ae8940738228041028de14244a06d190, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.344

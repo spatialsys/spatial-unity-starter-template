@@ -151,7 +151,7 @@
       "url": "https://packages.unity.com"
     },
     "io.spatial.unitysdk": {
-      "version": "0.80.0",
+      "version": "1.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

@@ -4061,6 +4061,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1560234909}
     m_Modifications:
+    - target: {fileID: 2206187583392911606, guid: 2a594347aa9b04d1c97a761e97f7743c,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 2206187583414830676, guid: 2a594347aa9b04d1c97a761e97f7743c,
         type: 3}
       propertyPath: m_RootOrder
@@ -6008,6 +6014,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1560234909}
     m_Modifications:
+    - target: {fileID: 2206187583392911606, guid: 2a594347aa9b04d1c97a761e97f7743c,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 2206187583414830676, guid: 2a594347aa9b04d1c97a761e97f7743c,
         type: 3}
       propertyPath: m_RootOrder
@@ -7963,6 +7975,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1560234909}
     m_Modifications:
+    - target: {fileID: 2206187583392911606, guid: 2a594347aa9b04d1c97a761e97f7743c,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 2206187583414830676, guid: 2a594347aa9b04d1c97a761e97f7743c,
         type: 3}
       propertyPath: m_RootOrder
@@ -8506,6 +8524,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1560234909}
     m_Modifications:
+    - target: {fileID: 2206187583392911606, guid: 2a594347aa9b04d1c97a761e97f7743c,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 2206187583414830676, guid: 2a594347aa9b04d1c97a761e97f7743c,
         type: 3}
       propertyPath: m_RootOrder
@@ -8939,7 +8963,8 @@ MonoBehaviour:
   interactText: Raise the flag
   iconType: 0
   icon: {fileID: 0}
-  radius: 5
+  interactiveRadius: 5
+  visibilityRadius: 10
   onInteractEvent:
     id: 0
     unityEventIsSynced: 0
@@ -11264,6 +11289,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 984589219}
     m_Modifications:
+    - target: {fileID: 1157856685107410516, guid: 552e7a51f41ac42c28ba9527ff35e3bd,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 1157856685265467264, guid: 552e7a51f41ac42c28ba9527ff35e3bd,
         type: 3}
       propertyPath: m_RootOrder

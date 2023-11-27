@@ -13,3 +13,5 @@ UpgradeLog.htm
 .vscode
 !Assets/**/*~
 Assets/Unity.VisualScripting.Generated*
+Assets/Spatial/Temp*
+Assets/Spatial/Generated*

@@ -19533,7 +19533,8 @@ AudioSource:
   m_GameObject: {fileID: 1157856685107410522}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7931198258659611161, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 211d5f45ee3f54493b4d143121386d43, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -24565,7 +24566,8 @@ MonoBehaviour:
   interactText: Dig coins
   iconType: 1
   icon: {fileID: 21300000, guid: 90443333bd8a54531aa702a832f79e9a, type: 3}
-  radius: 5
+  interactiveRadius: 5
+  visibilityRadius: 10
   onInteractEvent:
     id: 0
     unityEventIsSynced: 0
